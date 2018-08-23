@@ -31,8 +31,10 @@ function updateHTMLContent(movieName){
   description.innerHTML = currentMovie.description
   audienceScore.innerHTML = currentMovie.audienceScore
   
+  let castInnerHTML = '<ul>'
+  
   for(let i=0; i < currentMovie.cast.length; i++){
-    
+    cast.innerHTML = currentMovie.cast[i]
   }
   
 }
