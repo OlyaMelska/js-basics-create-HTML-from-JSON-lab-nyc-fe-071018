@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   })
 });
 
-function updateHTMLContent(){
+function updateHTMLContent(movieName){
   let title = document.getElementById('title')
   let director = document.getElementById('director')
   let genre = document.getElementById('genre')
@@ -19,6 +19,7 @@ function updateHTMLContent(){
   let poster = document.getElementById('poster')
   let description = document.getElementById('description')
   let audienceScore = document.getElementById('audienceScore')
+  let currentMovie = movies[movieName]
   
   title.innerHTML = movies['Titanic'].title
   director.innerHTML = movies['Titanic'].director
