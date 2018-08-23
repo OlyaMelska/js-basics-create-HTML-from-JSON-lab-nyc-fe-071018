@@ -17,6 +17,7 @@ function updateHTMLContent(){
   let genre = document.getElementById('genre')
   let filmRating = document.getElementById('filmRating')
   let poster = document.getElementById('poster')
+  let description = document.getElementById('description')
   
   title.innerHTML = movies['Titanic'].title
   director.innerHTML = movies['Titanic'].director
