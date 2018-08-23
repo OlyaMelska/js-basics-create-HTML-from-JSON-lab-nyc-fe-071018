@@ -3,4 +3,10 @@ document.addEventListener("DOMContentloaded", (e) => {
   // your code here
   const titanicButton = document.getElementById('titanic')
   const terminatorButton = document.getElementById('Terminator 2')
+  titanicButton.addEventListener('click', (event) =>{
+    
+  })
+  terminatorButton.addEventListener('click', (event) =>{
+    
+  })
 });
