@@ -30,6 +30,8 @@ function updateHTMLContent(movieName){
   poster.setAttribute('src', currentMovie.poster)
   description.innerHTML = currentMovie.description
   audienceScore.innerHTML = currentMovie.audienceScore
+  cast.innerHTML = currentMovie.cast
+  
   
 }
 
