@@ -24,6 +24,7 @@ function updateHTMLContent(){
   genre.innerHTML = movies['Titanic'].genre
   filmRating.innerHTML = movies['Titanic'].filmRating
   poster.setAttribute('src', movies['Titanic'].poster)
+  description.innerHTML = movies['Titanic'].description
   
 }
 
