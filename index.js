@@ -31,7 +31,7 @@ function updateHTMLContent(movieName){
   description.innerHTML = currentMovie.description
   audienceScore.innerHTML = currentMovie.audienceScore
   cast.innerHTML = currentMovie.cast
-  
+  reviews.innerHTML = currentMovie.reviews
   
 }
 
