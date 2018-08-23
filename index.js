@@ -21,13 +21,13 @@ function updateHTMLContent(movieName){
   let audienceScore = document.getElementById('audienceScore')
   let currentMovie = movies[movieName]
   
-  title.innerHTML = movies['Titanic'].title
-  director.innerHTML = movies['Titanic'].director
-  genre.innerHTML = movies['Titanic'].genre
-  filmRating.innerHTML = movies['Titanic'].filmRating
-  poster.setAttribute('src', movies['Titanic'].poster)
-  description.innerHTML = movies['Titanic'].description
-  audienceScore.innerHTML = movies['Titanic'].audienceScore
+  title.innerHTML = currentMovie.title
+  director.innerHTML = currentMovie.director
+  genre.innerHTML = currentMovie.genre
+  filmRating.innerHTML = currentMovie.filmRating
+  poster.setAttribute('src', currentMovie.poster)
+  description.innerHTML = currentMovie.description
+  audienceScore.innerHTML = currentMovie.audienceScore
   
 }
 
