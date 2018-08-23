@@ -11,7 +11,12 @@ document.addEventListener("DOMContentloaded", (e) => {
   })
 });
 
-let title = document.getElementById('title')
-let director = document.getElementById('director')
-let genre = document.getElementById('genre')
-let filmRating = document.getElementById('filmRating')
+function updateHTMLContent(){
+  let title = document.getElementById('title')
+  let director = document.getElementById('director')
+  let genre = document.getElementById('genre')
+  let filmRating = document.getElementById('filmRating')
+  
+  title.iinerHTML = 'hi'
+}
+
