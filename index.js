@@ -22,7 +22,7 @@ function updateHTMLContent(){
   director.innerHTML = movies['Titanic'].director
   genre.innerHTML = movies['Titanic'].genre
   filmRating.innerHTML = movies['Titanic'].filmRating
-  poster.setAttribute('src', )
+  poster.setAttribute('src', movies['Titanic'].poster)
   
 }
 
