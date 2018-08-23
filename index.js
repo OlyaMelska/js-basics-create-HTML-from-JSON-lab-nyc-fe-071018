@@ -16,10 +16,13 @@ function updateHTMLContent(){
   let director = document.getElementById('director')
   let genre = document.getElementById('genre')
   let filmRating = document.getElementById('filmRating')
+  let poster = document.getElementById('poster')
   
   title.innerHTML = movies['Titanic'].title
   director.innerHTML = movies['Titanic'].director
   genre.innerHTML = movies['Titanic'].genre
   filmRating.innerHTML = movies['Titanic'].filmRating
+  poster.setAttribute('src', )
+  
 }
 
