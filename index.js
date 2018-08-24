@@ -39,6 +39,7 @@ function updateHTMLContent(movieName){
     cast.innerHTML += ('<li>' + role + ": " + actor + '</li>')
   }
   castInnerHTML += '</ul>'
+  cast.innerHTML = castInnerHTML
   
   
 }
