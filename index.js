@@ -34,8 +34,8 @@ function updateHTMLContent(movieName){
   let castInnerHTML = '<ul>'
   
   for(castMember of currentMovie.cast){
-    let role = currentMovie.castMember.role
-    let actor = currentMovie.castMember.actor
+    let role = castMember.role
+    let actor = castMember.actor
     cast.innerHTML += ('<li>' + role + ": " + actor + '</li>')
   }
   castInnerHTML += '</ul>'
