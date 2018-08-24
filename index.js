@@ -2,14 +2,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
   // invoking a function here will make sure it happens on page load
   // your code here
 
-  const titanicButton = document.getElementById('Titanic')
-  const terminatorButton = document.getElementById('Terminator 2')
-  titanicButton.addEventListener('click', (event) =>{
-    updateHTMLContent('Titanic')
-  })
-  terminatorButton.addEventListener('click', (event) =>{
-    updateHTMLContent('Terminator 2')
-  })
 });
 
 function updateHTMLContent(movieName){
@@ -55,3 +47,12 @@ function updateHTMLContent(movieName){
 }
 
 updateHTMLContent('Titanic')
+
+  const titanicButton = document.getElementById('Titanic')
+  const terminatorButton = document.getElementById('Terminator 2')
+  titanicButton.addEventListener('click', (event) =>{
+    updateHTMLContent('Titanic')
+  })
+  terminatorButton.addEventListener('click', (event) =>{
+    updateHTMLContent('Terminator 2')
+  })
