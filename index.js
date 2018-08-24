@@ -42,7 +42,7 @@ function updateHTMLContent(movieName){
   castInnerHTML += '</ul>'
   cast.innerHTML = castInnerHTML
   
-  for(let rewiew of currentMovie.reviews){
+  for(let review of currentMovie.reviews){
     let userName = rewiew.username
     let content = rewiew.content
     rewiewInnerHTML += ('<p>' + username + ": " + content + "</p>")
