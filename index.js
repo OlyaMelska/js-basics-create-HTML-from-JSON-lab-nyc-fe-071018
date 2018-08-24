@@ -54,4 +54,4 @@ function updateHTMLContent(movieName){
   
 }
 
-  updateHTMLContent('Titanic')
+updateHTMLContent('Titanic')
