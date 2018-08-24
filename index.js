@@ -1,8 +1,4 @@
-document.addEventListener("DOMContentLoaded", (e) => {
-  // invoking a function here will make sure it happens on page load
-  // your code here
-
-});
+document.addEventListener("DOMContentLoaded", (e) => {});
 
 function updateHTMLContent(movieName){
   let title = document.getElementById('title')
