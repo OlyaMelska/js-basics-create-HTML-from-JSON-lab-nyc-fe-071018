@@ -32,6 +32,7 @@ function updateHTMLContent(movieName){
   audienceScore.innerHTML = currentMovie.audienceScore
   
   let castInnerHTML = '<ul>'
+  let rewiewInnerHTML = '<div>'
   
   for(let castMember of currentMovie.cast){
     let role = castMember.role
@@ -40,6 +41,12 @@ function updateHTMLContent(movieName){
   }
   castInnerHTML += '</ul>'
   cast.innerHTML = castInnerHTML
+  
+  for(rewiew of currentMovie.rewiews){
+    let userName = rewiew.username
+    let content = rewiew.content
+    
+  }
   
   
 }
