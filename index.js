@@ -20,7 +20,7 @@ function updateHTMLContent(movieName){
   description.innerHTML = currentMovie.description
   audienceScore.innerHTML = currentMovie.audienceScore
   
-  let castInnerHTML = '<ul>'
+  let castInnerHTML = ''
   let reviewInnerHTML = '<div>'
   
   for(let castMember of currentMovie.cast){
@@ -28,7 +28,7 @@ function updateHTMLContent(movieName){
     let actor = castMember.actor
     castInnerHTML += ('<li>' + role + ": " + actor + '</li>')
   }
-  castInnerHTML += '</ul>'
+  castInnerHTML += ''
   cast.innerHTML = castInnerHTML
   
   for(let review of currentMovie.reviews){
@@ -38,7 +38,6 @@ function updateHTMLContent(movieName){
   }
   reviewInnerHTML +='</div>'
   reviews.innerHTML = reviewInnerHTML
-  
   
 }
 
