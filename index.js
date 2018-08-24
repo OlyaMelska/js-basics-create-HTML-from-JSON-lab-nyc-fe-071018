@@ -47,8 +47,8 @@ function updateHTMLContent(movieName){
     let content = review.content
     rewiewInnerHTML += ('<p>' + username + ": " + content + "</p>")
   }
-  rewiewInnerHTML +='</div>'
-  reviews.innerHTML = rewiewInnerHTML
+  reviewInnerHTML +='</div>'
+  reviews.innerHTML = reviewInnerHTML
   
   
 }
